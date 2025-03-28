@@ -49,7 +49,8 @@ function App() {
       return {
         ...prevState,
         selectedProjectId: undefined,
-        projects: [...prevState.projects, newProject],
+        projects: [...prevSate.projects],
+        newProject,
       };
     });
   }

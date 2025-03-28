@@ -28,3 +28,4 @@ export default function Tasks({ tasks, onAdd, onDelete }) {
     </section>
   );
 }
+
